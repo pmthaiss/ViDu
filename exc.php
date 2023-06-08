@@ -285,7 +285,7 @@ function reverseStr($str) {
     }
     return $reversed;
 }
-$string = "xin chào moi nguoi";
+$string = "xin chao moi nguoi";
 $reversedStr = reverseStr($string);
 echo $reversedStr;
 //Câu 16: Viết chương trình PHP để tính số lượng phần tử trong một mảng.
@@ -485,7 +485,7 @@ if ($largestOddNumber !== null) {
   echo "Không tìm thấy số lẻ trong mảng.";
 }
 //Câu 25: Viết chương trình PHP để kiểm tra xem một số có phải là số nguyên tố hay không.
-function isPrime($number) {
+function isPrimeN($number) {
     if ($number <= 1) {
         return false;
     }
@@ -499,7 +499,7 @@ function isPrime($number) {
     return true;
 }
 $number = 11;
-if (isPrime($number)) {
+if (isPrimeN($number)) {
     echo "{$number} là số nguyên tố";
 } else {
     echo "{$number} không là số nguyên tố";
